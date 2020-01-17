@@ -13,5 +13,6 @@ Pod::Spec.new do |s|
   s.platform     = :ios, "10.0"
   s.source       = { :git => "https://github.com/forsen/WMSKit.git", :tag => "#{s.version}" }
   s.source_files  = "WMSKit", "WMSKit/**/*.{h,m,swift}"
-  s.pod_target_xcconfig = { 'SWIFT_VERSION' => '3' }
+  s.pod_target_xcconfig = { 'SWIFT_VERSION' => '5' }
+  s.swift_version = "5"
 end

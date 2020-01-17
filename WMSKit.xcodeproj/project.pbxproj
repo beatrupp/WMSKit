@@ -167,6 +167,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = D3AEF7731E340C3000843EBC;
@@ -341,7 +342,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
@@ -361,7 +362,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = no.forsen.WMSKit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
@@ -410,6 +411,7 @@
 				D3AEF7931E340C3100843EBC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D3AEF7941E340C3100843EBC /* Build configuration list for PBXNativeTarget "WMSKitTests" */ = {
 			isa = XCConfigurationList;
@@ -418,6 +420,7 @@
 				D3AEF7961E340C3100843EBC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
